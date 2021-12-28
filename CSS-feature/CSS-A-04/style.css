@@ -1,0 +1,32 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	background: rgba(0, 0, 0, 0.651) url("https://img.icons8.com/ios/500/css.png") repeat-y 100% 100%;
+
+}
+div {
+	width: 422px;
+	background-color: #000;
+	color: #fff;
+	box-shadow: yellow;
+	padding: 20px;
+	transition: 1s;
+	text-align: justify;
+	border-radius: 10px;
+}
+div:hover {
+	width: 422px;
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	box-shadow:0 0 50px rgb(19, 163, 199);
+	border-radius: 10px;
+	padding: 20px;
+}
+h2 {
+	text-align: center;
+	text-shadow: 0 0 50px rgb(4, 184, 255);
+}
+h2:hover {
+	text-shadow: 0 0 10px rgb(255, 4, 4);
+}

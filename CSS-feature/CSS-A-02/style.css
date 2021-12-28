@@ -1,0 +1,29 @@
+* {
+	box-sizing: border-box;
+   }
+   body {
+
+	background-image: url(https://images.pexels.com/photos/355904/pexels-photo-355904.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+   }
+div {
+	margin: 20px;
+	border: 1px solid red;
+	padding-top: 25px;
+	width: 422px;
+	text-align: justify;
+	padding: 20px;
+	box-shadow: 0 0 20px rgb(201, 181, 0);
+	color: #fff;
+	background-color: rgb(5, 5, 5);
+   }
+div:hover {
+	color: rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0 0 20px rgb(255, 255, 255);
+	border-radius: 20px;
+	transition: 1s;
+   }
+   

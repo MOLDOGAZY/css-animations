@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #252d50;
+}
+
+div {
+  width: 422px;
+  text-align: justify;
+  color: #011f2c;
+  margin: 20px;
+  padding: 10px;
+  box-shadow: 0 0 20px yellow;
+  background-color: rgb(148, 148, 148);
+}
+div:hover {
+  color: #000000;
+  box-shadow: 0 0 20px rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  transition: 1s;
+}
+div h2 {
+  padding-top: 0;
+  text-align: center;
+}
